@@ -17,7 +17,7 @@ public class WWStudioPageTest extends BaseTestSetUp{
     }
 
     @Parameters({ "studioPageTitle" })
-    //@Test
+    @Test
     public void testTilePage(String studioPageTitle){
         wwsp = new WWStudioPage(driver);
         Assert.assertTrue(wwsp.verifyLocationName(studioPageTitle),"WW studio page title doesn't match");
