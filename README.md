@@ -22,4 +22,7 @@ Person B  1
 
 Write an automated test for this scenario using WebDriver.
 
+
 To run `mvn clean test` to run all tests
+
+(Note in the unlikley case that it is not working on another setup I also added q2.mp4 which is a screen capture of me running it earlier and it working) it is located in /QW22/src/main/resources/q2.mp4
