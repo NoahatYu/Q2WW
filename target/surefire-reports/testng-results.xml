@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Coding_Exercise" duration-ms="41085" started-at="2020-01-21T18:00:44Z" finished-at="2020-01-21T18:01:25Z">
+    <groups>
+    </groups>
+    <test name="WW_Tests" duration-ms="41085" started-at="2020-01-21T18:00:44Z" finished-at="2020-01-21T18:01:25Z">
+      <class name="SearchZipPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:SearchZipPageTest@1554909b]" name="setUp" is-config="true" duration-ms="5226" started-at="2020-01-21T18:01:09Z" finished-at="2020-01-21T18:01:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.weightwatchers.com/us/find-a-meeting/search?search=10011]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testZipPage(java.lang.String)[pri:0, instance:SearchZipPageTest@1554909b]" name="testZipPage" duration-ms="1760" started-at="2020-01-21T18:01:14Z" finished-at="2020-01-21T18:01:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Weight Loss Meeting Locations; 10011 | WW USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZipPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchZipPageTest@1554909b]" name="tearDown" is-config="true" duration-ms="89" started-at="2020-01-21T18:01:16Z" finished-at="2020-01-21T18:01:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SearchZipPageTest -->
+      <class name="BaseWWPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:BaseWWPageTest@566776ad]" name="setUp" is-config="true" duration-ms="11434" started-at="2020-01-21T18:00:44Z" finished-at="2020-01-21T18:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.weightwatchers.com/us/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBaseTitle(java.lang.String)[pri:0, instance:BaseWWPageTest@566776ad]" name="testBaseTitle" duration-ms="45" started-at="2020-01-21T18:00:55Z" finished-at="2020-01-21T18:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WW (Weight Watchers): Weight Loss & Wellness Help]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaseTitle -->
+        <test-method status="PASS" signature="testStudioBtn()[pri:0, instance:BaseWWPageTest@566776ad]" name="testStudioBtn" duration-ms="2768" started-at="2020-01-21T18:00:55Z" finished-at="2020-01-21T18:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudioBtn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:BaseWWPageTest@566776ad]" name="tearDown" is-config="true" duration-ms="828" started-at="2020-01-21T18:00:58Z" finished-at="2020-01-21T18:00:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BaseWWPageTest -->
+      <class name="WWStudioPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:WWStudioPageTest@6bf256fa]" name="setUp" is-config="true" duration-ms="6985" started-at="2020-01-21T18:01:16Z" finished-at="2020-01-21T18:01:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.weightwatchers.com/us/find-a-meeting/1180510/ww-studio-flatiron-new-york-ny]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1Meetings(java.lang.String)[pri:0, instance:WWStudioPageTest@6bf256fa]" name="test1Meetings" duration-ms="883" started-at="2020-01-21T18:01:23Z" finished-at="2020-01-21T18:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1Meetings -->
+        <test-method status="PASS" signature="test2HrsOps()[pri:0, instance:WWStudioPageTest@6bf256fa]" name="test2HrsOps" duration-ms="531" started-at="2020-01-21T18:01:24Z" finished-at="2020-01-21T18:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2HrsOps -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:WWStudioPageTest@6bf256fa]" name="tearDown" is-config="true" duration-ms="203" started-at="2020-01-21T18:01:24Z" finished-at="2020-01-21T18:01:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WWStudioPageTest -->
+      <class name="FindAStudioPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:FindAStudioPageTest@6108b2d7]" name="setUp" is-config="true" duration-ms="9063" started-at="2020-01-21T18:00:59Z" finished-at="2020-01-21T18:01:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.weightwatchers.com/us/find-a-meeting]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFindAStudioPage(java.lang.String)[pri:0, instance:FindAStudioPageTest@6108b2d7]" name="testFindAStudioPage" duration-ms="1094" started-at="2020-01-21T18:01:08Z" finished-at="2020-01-21T18:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Find WW Studios & Meetings Near You | WW USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAStudioPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FindAStudioPageTest@6108b2d7]" name="tearDown" is-config="true" duration-ms="126" started-at="2020-01-21T18:01:09Z" finished-at="2020-01-21T18:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FindAStudioPageTest -->
+    </test> <!-- WW_Tests -->
+  </suite> <!-- Coding_Exercise -->
+</testng-results>
